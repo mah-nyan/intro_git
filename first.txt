@@ -3,3 +3,4 @@ kihonの
 ・git add
 ・git commit -v
 ・git rm
+・git status
