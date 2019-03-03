@@ -12,3 +12,9 @@ git remote add origin https://github.com/mah-nyan/intro_git.git
 ■リモートリポジトリへ送信
 git push origin master
 #masterはブランチ、作っていないときはmaster
+
+■管理したくないファイルの指定（認証関連等）
+.gitignoreを作成し、ファイルやフォルダを１行ずつ、追記する
+#コミットしてしまったファイルを管理から削除する場合、.gitignoreに追記した上で、以下を実行
+git rm --cached [ファイル名]
+
