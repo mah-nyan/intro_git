@@ -1,7 +1,14 @@
-gitの練習です
-kihonの
+■gitの基本コマンドです
 ・git add
 ・git commit -v
 ・git rm
 ・git status
 ・git log -n 3
+・git diff
+
+■リモートリポジトリに登録
+git remote add origin https://github.com/mah-nyan/intro_git.git
+
+■リモートリポジトリへ送信
+git push origin master
+#masterはブランチ、作っていないときはmaster
