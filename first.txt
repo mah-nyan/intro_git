@@ -4,3 +4,4 @@ kihonの
 ・git commit -v
 ・git rm
 ・git status
+・git log -n 3
